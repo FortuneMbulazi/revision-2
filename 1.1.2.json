@@ -1,0 +1,30 @@
+{
+    "forecast": [{
+        "Monday": {
+            "description": "Sunny",
+            "maxTemp": 22,
+            "minTemp": 20,
+            "WindSpeed": 12,
+            "Danger": false
+        }
+    },
+    {
+        "Tuesday": {
+            "description": "Clear Sky",
+            "maxTemp": 27,
+            "minTemp": 19,
+            "WindSpeed": 9,
+            "Danger": false
+        }
+    },
+    {
+        "Wednsday": {
+            "description": "Rainy",
+            "maxTemp": 18,
+            "minTemp": 14,
+            "WindSpeed": 18,
+            "RainPercentage": 90,
+            "Danger": true
+        }
+    }]
+}
