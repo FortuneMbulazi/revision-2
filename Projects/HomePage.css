@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #0099cc;
+    color: white;
+    padding:0;
+}
+nav{
+    background-image: url("../img/logo.jpg");
+    background-repeat: no-repeat;
+    background-position: left 5% top 20px;
+    height: 30%;
+    width: 100%;
+    background-color: #006666;
+    margin: auto;
+    text-align: right;
+    padding-right: 5%;
+}
+img{
+    margin-left: 5%;
+    display: inline;
+}
+ul li{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 80px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+ul li a{
+    text-decoration: none;
+    padding-right: 30px;
+    display: block;
+}
+ul li ul{
+    display: none;
+}
+ul li a:hover{
+    background-color: teal;
+}
+ul li :hover{
+    display: block;
+}
+#first{
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    color: whitesmoke;
+    background-image: url("../img/coding.jpg");
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+span{
+    color: tomato;
+}
+.second-p{
+    margin-top: 10%;
+}
+footer{
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 500;
+    text-transform: uppercase;
+}

@@ -73,11 +73,11 @@ function logical(checking){
 console.log(logical(7));
 
 //Using the case/switch statement
-function interchanging(meaning){
+function corona(state){
     let answer = "";
-    switch(meaning){
-        case "A":
-            answer = "Apple";
+    switch(state){
+        case "Coughing":
+            answer = "";
             break;
         case "B":
             answer = "Beat Roots";
